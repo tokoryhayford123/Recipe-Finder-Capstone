@@ -1,25 +1,30 @@
-# Recipe-Finder-Capstone
+# Recipe Finder (React + Vite + Tailwind)
 
-👋 Hello, welcome to the Recipe Finder App!  
-🍲 Discover, create, and manage your favorite recipes with ease.  
-✨ Built with love by Hayford Tokory ❤️  
+A simple, responsive app that searches recipes using TheMealDB API and shows details (ingredients, instructions, video, source).
 
+## Run locally
 
+```bash
+npm install
+npm run dev
+```
 
-🍲 Recipe Finder App
+Then open the printed local URL (usually http://localhost:5173).
 
-The Recipe Finder App is a simple React-based application that allows users to browse, search, add, edit, and delete recipes. It’s built as part of the ALX Capstone Project.
+## Build for production
 
-🚀 Features
+```bash
+npm run build
+npm run preview
+```
 
-🔍 Search recipes by name
+## Deploy
 
-📖 View recipe details (ingredients & steps)
+- **Netlify**: Build = `npm run build`, Publish directory = `dist`
+- **Vercel**: Import repo, framework = Vite, Deploy
 
-➕ Add new recipes
+## Tech
 
-✏️ Edit existing recipes
-
-❌ Delete recipes
-
-⚡ Built with React + Vite for fast performance
+- React 18 + Vite 5
+- Tailwind CSS 3
+- TheMealDB API
